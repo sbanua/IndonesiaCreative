@@ -1,8 +1,16 @@
+/* ========================================
+   RESET
+======================================== */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ========================================
+   DESKTOP
+======================================== */
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -25,9 +33,11 @@ body {
 }
 
 h1 {
-    font-size: clamp(40px, 5vw, 72px);
+    font-size: clamp(42px, 6vw, 84px);
     font-weight: 700;
+    line-height: 1.1;
     margin-bottom: 16px;
+    letter-spacing: -0.03em;
 }
 
 .tagline {
@@ -42,6 +52,7 @@ h1 {
 
 .offer p:first-child {
     font-size: 18px;
+    font-weight: 600;
     margin-bottom: 12px;
 }
 
@@ -59,8 +70,55 @@ footer p {
 footer a {
     color: #111;
     text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.25s ease;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    opacity: 0.65;
+}
+
+/* ========================================
+   MOBILE & TABLET
+======================================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 100dvh;
+        padding: 32px 24px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 1.1;
+        margin-bottom: 14px;
+    }
+
+    .tagline {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .offer {
+        margin-bottom: 56px;
+    }
+
+    .offer p:first-child {
+        font-size: 16px;
+    }
+
+    .offer p:last-child {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
 }
