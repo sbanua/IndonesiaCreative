@@ -29,15 +29,15 @@ body {
 
     text-align: center;
 
-    padding: 40px;
+    padding: 40px 32px;
 }
 
 h1 {
     font-size: clamp(42px, 6vw, 84px);
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 16px;
     letter-spacing: -0.03em;
+    margin-bottom: 16px;
 }
 
 .tagline {
@@ -47,7 +47,7 @@ h1 {
 }
 
 .offer {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .offer p:first-child {
@@ -71,49 +71,50 @@ footer a {
     color: #111;
     text-decoration: none;
     font-weight: 600;
-    transition: opacity 0.25s ease;
+    transition: opacity .25s ease;
 }
 
 footer a:hover {
-    opacity: 0.65;
+    opacity: .65;
 }
 
 /* ========================================
-   MOBILE & TABLET
+   MOBILE
 ======================================== */
 
 @media (max-width: 768px) {
 
     .hero {
-        min-height: 100dvh;
-        padding: 32px 24px;
+        min-height: 100vh;
+        padding: 24px;
     }
 
     h1 {
-        font-size: 42px;
-        line-height: 1.1;
-        margin-bottom: 14px;
+        font-size: 36px;
+        line-height: 1.15;
+        margin-bottom: 12px;
     }
 
     .tagline {
-        font-size: 20px;
-        margin-bottom: 40px;
+        font-size: 18px;
+        margin-bottom: 32px;
     }
 
     .offer {
-        margin-bottom: 56px;
+        margin-bottom: 48px;
     }
 
     .offer p:first-child {
         font-size: 16px;
+        margin-bottom: 8px;
     }
 
     .offer p:last-child {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     footer a {
