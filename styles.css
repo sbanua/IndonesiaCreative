@@ -1,5 +1,5 @@
 /* ========================================
-   RESET
+RESET
 ======================================== */
 
 * {
@@ -9,7 +9,7 @@
 }
 
 /* ========================================
-   DESKTOP
+GLOBAL
 ======================================== */
 
 body {
@@ -41,19 +41,19 @@ h1 {
 }
 
 .tagline {
-    font-size: clamp(20px, 2vw, 28px);
+    font-size: clamp(20px, 2.2vw, 28px);
     color: #555;
-    margin-bottom: 60px;
+    margin-bottom: 56px;
 }
 
 .offer {
-    margin-bottom: 100px;
+    margin-bottom: 96px;
 }
 
 .offer p:first-child {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .offer p:last-child {
@@ -75,11 +75,11 @@ footer a {
 }
 
 footer a:hover {
-    opacity: .65;
+    opacity: 0.65;
 }
 
 /* ========================================
-   MOBILE
+MOBILE
 ======================================== */
 
 @media (max-width: 768px) {
@@ -90,7 +90,7 @@ footer a:hover {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 34px;
         line-height: 1.15;
         margin-bottom: 12px;
     }
@@ -118,7 +118,7 @@ footer a:hover {
     }
 
     footer a {
-        font-size: 16px;
+        font-size: 15px;
         word-break: break-word;
     }
 
