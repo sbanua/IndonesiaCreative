@@ -43,6 +43,7 @@
     </script>
 
 </head>
+
 <body>
 
     <main class="hero">
@@ -58,40 +59,19 @@
             <p>Offers from IDR 100 Million</p>
         </div>
 
-      <main class="hero">
+        <footer>
+            <p>Serious inquiries</p>
 
-    <h1>IndonesiaCreative.com</h1>
+            <a
+                id="email-link"
+                href="mailto:hello@indonesiacreative.com">
+                hello@indonesiacreative.com
+            </a>
+        </footer>
 
-    <p class="tagline">
-        One name. Endless possibilities
-    </p>
+    </main>
 
-    <div class="offer">
-        <p>Available for acquisition</p>
-        <p>Offers from IDR 100 Million</p>
-    </div>
-
-    <footer>
-        <p>Serious inquiries</p>
-
-        <a
-            id="email-link"
-            href="mailto:hello@indonesiacreative.com">
-            hello@indonesiacreative.com
-        </a>
-    </footer>
-
-</main>
-
-<script>
-    document.getElementById('email-link').addEventListener('click', function () {
-        gtag('event', 'generate_lead', {
-            method: 'email'
-        });
-
-        console.log('GA4 Event: generate_lead');
-    });
-</script>
+    <script src="script.js"></script>
 
 </body>
 </html>
